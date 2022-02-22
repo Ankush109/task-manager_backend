@@ -5,7 +5,7 @@ const Subscribe =Mongoose.model("Subscribe",{
             type:String,
             required:true
         },
-        Completed:{
+        completed:{
             type:Boolean,
             default:false
         }
